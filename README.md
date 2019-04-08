@@ -1,0 +1,1 @@
+Blog application utilizing AWS EC2, DynamoDB and Cognito services. Using React on the front end and Node & express on the backend.
