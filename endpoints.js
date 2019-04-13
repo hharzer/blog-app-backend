@@ -6,6 +6,5 @@ module.exports = {
   updatePost: "/updatePost",
   signup: "/signup",
   signin: "/signin",
-  verify: "/verify",
   refreshSession: "/refreshSession"
 };

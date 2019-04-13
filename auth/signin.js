@@ -19,7 +19,8 @@ module.exports = (req, res) => {
         200,
         JSON.stringify({
           username,
-          accessToken: result.getAccessToken().getJwtToken(),
+          name: result.getIdToken().payload.name,
+          idToken: result.getIdToken().getJwtToken(),
           refreshToken: result.getRefreshToken().getToken()
         })
       );
