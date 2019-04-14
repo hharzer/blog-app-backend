@@ -1,1 +1,1 @@
-Blog application utilizing AWS EC2, DynamoDB, S3, CloudFront, Route53 and Cognito service. Using React on the front end and Node & express on the backend.
+Blog application utilizing AWS EC2, DynamoDB, S3, CloudFront, Route53, ACM and Cognito service. Using React on the front end and Node & express on the backend.
