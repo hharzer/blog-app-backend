@@ -1,5 +1,6 @@
 const AmazonCognitoIdentity = require("amazon-cognito-identity-js");
 const { UserPoolId, ClientId } = require("../config");
+global.fetch = require("node-fetch");
 
 module.exports = (req, res) => {
   const { username, token } = req.body;
